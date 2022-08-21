@@ -1,0 +1,31 @@
+{
+  "name": "no-fun",
+  "version": "0.0.1",
+  "description": "A chrome extension to block request on fun websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rf dist",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmanuelgg/No-Fun.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "author": "Juan Manuel González Garzón",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanmanuelgg/No-Fun/issues"
+  },
+  "homepage": "https://github.com/juanmanuelgg/No-Fun#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
