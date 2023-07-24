@@ -25,7 +25,7 @@
   "devDependencies": {
     "babel-loader": "^9.1.2",
     "copy-webpack-plugin": "^11.0.0",
-    "webpack": "^5.88.1",
+    "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   }
 }
